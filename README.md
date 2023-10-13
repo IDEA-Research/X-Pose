@@ -23,28 +23,37 @@
 #### News
 - **2023.10.13 :** We release the [arxiv](http://arxiv.org/abs/2310.08530) version of UniPose.
 
+
 ## 💡 Overview
 
 ### • UniPose is the first end-to-end prompt-based keypoint detection framework.
 
+
+<p align="middle">
+<img src="asset/framework.png" width="2000">
+<br>
+</p>
+
+
 ### • UniPose could support visual or textual prompts for any articulated, rigid, and soft objects.
 
-### • UniPose has strong fine-grained localization and generalization abilities across image styles, categories, and poses.
 
-
-
-### Visual Prompts as Inputs
+#### Visual Prompts as Inputs
 <p align="middle">
 <img src="asset/task1.png" width="2000">
 <br>
 </p>
 
 
-### Textual Prompts as Inputs
+#### Textual Prompts as Inputs
 <p align="middle">
 <img src="asset/task2.png" width="2000">
 <br>
 </p>
+
+
+
+### • UniPose has strong fine-grained localization and generalization abilities across image styles, categories, and poses.
 
 
 
