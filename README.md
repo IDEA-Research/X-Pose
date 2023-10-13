@@ -50,9 +50,9 @@
 
 ## 🗒 TODO 
 
-- [] Release inference code and demo.
-- [] Release checkpoints.
-- [] Release training codes.
+- [ ] Release inference code and demo.
+- [ ] Release checkpoints.
+- [ ] Release training codes.
 
 
 ### Cite UniPose
