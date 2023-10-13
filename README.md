@@ -1,4 +1,4 @@
-# UniPose : Detection Any Keypoints
+# UniPose: Detecting Any Keypoints
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unipose-detecting-any-keypoints/2d-human-pose-estimation-on-human-art)](https://paperswithcode.com/sota/2d-human-pose-estimation-on-human-art?p=unipose-detecting-any-keypoints)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unipose-detecting-any-keypoints/2d-pose-estimation-on-animal-kingdom)](https://paperswithcode.com/sota/2d-pose-estimation-on-animal-kingdom?p=unipose-detecting-any-keypoints)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unipose-detecting-any-keypoints/2d-pose-estimation-on-300w)](https://paperswithcode.com/sota/2d-pose-estimation-on-300w?p=unipose-detecting-any-keypoints)
