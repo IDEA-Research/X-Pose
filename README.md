@@ -14,7 +14,7 @@
 
 ### In-the-wild Test via UniPose
 <p align="middle">
-<img src="asset/in-the-wild.png" width="2000">
+<img src="asset/in-the-wild.jpg" width="2000">
 <br>
 </p>
 
