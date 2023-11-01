@@ -152,7 +152,7 @@ python app.py
 
 ## The UniKPT Dataset
 <p align="middle">
-<img src="asset/unikpt.png" width="2000">
+<img src="asset/dataset.png" width="2000">
 <br>
 </p>
 
