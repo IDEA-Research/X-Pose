@@ -92,7 +92,7 @@ UniPose has strong fine-grained localization and generalization abilities across
 ### 1. Guidelines
  • We have released the textual prompt-based branch for inference. As the visual prompt involves a substantial amount of user input, we are currently exploring more user-friendly platforms to support this functionality.
 
- • Since UniPose has learned strong structural prior, it's best to use the predefined skeleton as the keypoint textual prompts, which are shown in 'predefined_keypoints.py' file.
+ • Since UniPose has learned strong structural prior, it's best to use the predefined skeleton as the keypoint textual prompts, which are shown in [predefined_keypoints.py](https://github.com/IDEA-Research/UniPose/blob/master/predefined_keypoints.py).
 
  • If users don't provide a keypoint prompt, we'll try to match the appropriate skeleton based on the user's instance category. If unsuccessful, we'll default to using the animal's skeleton, which covers a wider range of categories and testing requirements.
 
@@ -134,7 +134,7 @@ python app.py
       <td>Swin-T</td>
       <td>74.4</td>
       <td><a href="https://drive.google.com/file/d/13gANvGWyWApMFTAtC3ntrMgx0fOocjIa/view"> Google Drive</a> 
-      <td><a href="config_model/UniPose_SwinT.py">GitHub link</a></td>
+      <td><a href="https://github.com/IDEA-Research/UniPose/blob/master/config_model/UniPose_SwinT.py">GitHub Link</a></td>
     </tr>
   </tbody>
   <tbody>
@@ -179,7 +179,7 @@ python app.py
 
 • All images included in the UniKPT dataset originate from the datasets listed in the table above. To access these images, please download them from the original repository.
 
-• We provide the [annotations](https://drive.google.com/file/d/1ukLPbTpTfrCQvRY2jY52CgRi-xqvyIsP/view) with precise keypoints' textual descriptions for effective training. More conveniently, you can find the text annotations in the [python file]().
+• We provide the [annotations](https://drive.google.com/file/d/1ukLPbTpTfrCQvRY2jY52CgRi-xqvyIsP/view) with precise keypoints' textual descriptions for effective training. More conveniently, you can find the text annotations in the [link](https://github.com/IDEA-Research/UniPose/blob/master/predefined_keypoints.py).
 
 
 ### Citing UniPose
