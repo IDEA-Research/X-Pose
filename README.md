@@ -1,7 +1,8 @@
 <div align="center">
 <p align="center"> <img src="asset/unipose_logo.png" width="250px"> </p>
 <h2> UniPose: Detecting Any Keypoints  </h2> 
-  
+
+
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unipose-detecting-any-keypoints/2d-human-pose-estimation-on-human-art)](https://paperswithcode.com/sota/2d-human-pose-estimation-on-human-art?p=unipose-detecting-any-keypoints)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unipose-detecting-any-keypoints/2d-pose-estimation-on-animal-kingdom)](https://paperswithcode.com/sota/2d-pose-estimation-on-animal-kingdom?p=unipose-detecting-any-keypoints)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unipose-detecting-any-keypoints/2d-pose-estimation-on-300w)](https://paperswithcode.com/sota/2d-pose-estimation-on-300w?p=unipose-detecting-any-keypoints)
@@ -10,6 +11,9 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unipose-detecting-any-keypoints/2d-pose-estimation-on-vinegar-fly)](https://paperswithcode.com/sota/2d-pose-estimation-on-vinegar-fly?p=unipose-detecting-any-keypoints)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unipose-detecting-any-keypoints/multi-person-pose-estimation-on-coco)](https://paperswithcode.com/sota/multi-person-pose-estimation-on-coco?p=unipose-detecting-any-keypoints)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unipose-detecting-any-keypoints/animal-pose-estimation-on-ap-10k)](https://paperswithcode.com/sota/animal-pose-estimation-on-ap-10k?p=unipose-detecting-any-keypoints)
+
+***Online demo***:[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/IDEA-Research/IDEA)
+***Quick Checkpoint download***:[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/header/openxlab_models.svg)](https://openxlab.org.cn/models/detail/IDEA-Research/UniPose)
 #### [<code>Project Page</code>](https://yangjie-cv.github.io/UniPose/) | [<code>Paper</code>](http://arxiv.org/abs/2310.08530) | [<code>ReadPaper</code>](https://drive.google.com/file/d/1ukLPbTpTfrCQvRY2jY52CgRi-xqvyIsP/view)  | [<code>UniKPT Annotation</code>](UniPose/predefined_keypoints.py)  |[<code>Video</code>](https://github.com/IDEA-Research/UniPose)
 
 [Jie Yang<sup>1,2</sup>](https://yangjie-cv.github.io/), [Ailing Zeng<sup>1</sup>](https://ailingzeng.site/), [Ruimao Zhang<sup>2</sup>](http://www.zhangruimao.site/), [Lei Zhang<sup>1</sup>](https://www.leizhang.org/)
@@ -18,6 +22,7 @@
 </div>
 
 ## 🤩 News
+- **2023.11.9 :** Thanks to [OpenXLab](https://openxlab.org.cn/models/detail/IDEA-Research/UniPose), you can try a quick [online demo](https://openxlab.org.cn/apps/detail/IDEA-Research/IDEA). Looking forward to the feedback!
 - **2023.11.1 :** We release the inference code, demo, checkpoints and the annotation of the UniKPT dataset.
 - **2023.10.13 :** We release the [arxiv](http://arxiv.org/abs/2310.08530) version.
   
@@ -133,7 +138,7 @@ python app.py
       <td>UniPose</td>
       <td>Swin-T</td>
       <td>74.4</td>
-      <td><a href="https://drive.google.com/file/d/13gANvGWyWApMFTAtC3ntrMgx0fOocjIa/view"> Google Drive</a> 
+      <td><a href="https://drive.google.com/file/d/13gANvGWyWApMFTAtC3ntrMgx0fOocjIa/view"> Google Drive</a> /<a href="https://openxlab.org.cn/models/detail/IDEA-Research/UniPose"> OpenXLab</a>
       <td><a href="https://github.com/IDEA-Research/UniPose/blob/master/config_model/UniPose_SwinT.py">GitHub Link</a></td>
     </tr>
   </tbody>
