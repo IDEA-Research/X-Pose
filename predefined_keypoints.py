@@ -8,7 +8,7 @@ animal_in_AnimalKindom = {"keypoints":['head mid top', 'eye left', 'eye right', 
 
 animal_in_AP10K = {"keypoints": ['left eye', 'right eye', 'nose', 'neck', 'root of tail', 'left shoulder', 'left elbow', 'left front paw', 'right shoulder', 'right elbow', 'right front paw', 'left hip', 'left knee', 'left back paw', 'right hip', 'right knee', 'right back paw'], "skeleton": [[1, 2], [1, 3], [2, 3], [3, 4], [4, 5], [4, 6], [6, 7], [7, 8], [4, 9], [9, 10], [10, 11], [5, 12], [12, 13], [13, 14], [5, 15], [15, 16], [16, 17]]}
 
-animal= {"keypoints":['head mid top', 'eye left', 'eye right', 'mouth front top', 'mouth back left', 'mouth back right', 'mouth front bottom', 'shoulder left', 'shoulder right', 'elbow left', 'elbow right', 'wrist left', 'wrist right', 'torso mid back', 'hip left', 'hip right', 'knee left', 'knee right', 'ankle left ', 'ankle right', 'tail top back', 'tail mid back', 'tail end back'],"skeleton": [[1, 0], [2, 0], [3, 4], [3, 5], [4, 6], [5, 6], [0, 7], [0, 8], [7, 9], [8, 10], [9, 11], [10, 12], [0, 13], [13, 20], [20, 14], [20, 15], [14, 16], [15, 17], [16, 18], [17, 19], [20, 21], [21, 22]]}
+animal= {"keypoints": ['left eye', 'right eye', 'nose', 'neck', 'root of tail', 'left shoulder', 'left elbow', 'left front paw', 'right shoulder', 'right elbow', 'right front paw', 'left hip', 'left knee', 'left back paw', 'right hip', 'right knee', 'right back paw'], "skeleton": [[1, 2], [1, 3], [2, 3], [3, 4], [4, 5], [4, 6], [6, 7], [7, 8], [4, 9], [9, 10], [10, 11], [5, 12], [12, 13], [13, 14], [5, 15], [15, 16], [16, 17]]}
 
 animal_face = {"keypoints": ['right eye right', 'right eye left', 'left eye right', 'left eye left', 'nose tip', 'lip right', 'lip left', 'upper lip', 'lower lip'], "skeleton": []}
 
