@@ -353,7 +353,14 @@ checkpoint_path = "./unipose_swint.pth"  # change the path of the model
 model = load_model(config_file, checkpoint_path, cpu_only=False)
 
 if __name__ == "__main__":
+MARKDOWN = \
+"""
+## UniPose: Detecting Any Keypoints
 
+[GitHub](https://github.com/IDEA-Research/UniPose) | [Paper](http://arxiv.org/abs/2310.08530) | [Project Page](https://yangjie-cv.github.io/UniPose/)
+
+If UniPose is helpful for you, please help star the GitHub Repo. Thanks!
+"""
     block = gr.Blocks().queue()
     with block:
         with gr.Row():
