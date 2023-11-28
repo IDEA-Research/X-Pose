@@ -22,9 +22,10 @@
 </div>
 
 ## 🤩 News
-- **2023.11.9 :** Thanks to [OpenXLab](https://openxlab.org.cn/models/detail/IDEA-Research/UniPose), you can try a quick [online demo](https://openxlab.org.cn/apps/detail/IDEA-Research/IDEA). Looking forward to the feedback!
-- **2023.11.1 :** We release the inference code, demo, checkpoints and the annotation of the UniKPT dataset.
-- **2023.10.13 :** We release the [arxiv](http://arxiv.org/abs/2310.08530) version.
+- **2023.11.28:** We are excited to highlight the 68 face keypoints detection ability of UniPose across any categories in this [figure](https://github.com/IDEA-Research/UniPose/blob/master/asset/anyface.png). The definition of face keypoints follows this [dataset](https://github.com/jin-s13/COCO-WholeBody/blob/master/imgs/Fig2_anno.png).
+- **2023.11.9:** Thanks to [OpenXLab](https://openxlab.org.cn/models/detail/IDEA-Research/UniPose), you can try a quick [online demo](https://openxlab.org.cn/apps/detail/IDEA-Research/IDEA). Looking forward to the feedback!
+- **2023.11.1:** We release the inference code, demo, checkpoints, and the annotation of the UniKPT dataset.
+- **2023.10.13:** We release the [arxiv](http://arxiv.org/abs/2310.08530) version.
   
 ### In-the-wild Test via UniPose
 UniPose has strong fine-grained localization and generalization abilities across image styles, categories, and poses.
@@ -33,6 +34,11 @@ UniPose has strong fine-grained localization and generalization abilities across
 <br>
 </p>
 
+#### Detecting any Face Keypoints:
+<p align="middle">
+<img src="asset/anyface.png" width="2000">
+<br>
+</p>
 
 ## 🗒 TODO 
 
@@ -55,18 +61,20 @@ UniPose has strong fine-grained localization and generalization abilities across
 • It supports multi-modality prompts, including textual and visual prompts to detect arbitrary keypoints (e.g., from articulated, rigid, and soft objects).
 
 
-#### Visual Prompts as Inputs
+
+#### Visual Prompts as Inputs:
 <p align="middle">
 <img src="asset/task1.png" width="2000">
 <br>
 </p>
 
 
-#### Textual Prompts as Inputs
+#### Textual Prompts as Inputs:
 <p align="middle">
 <img src="asset/task2.png" width="2000">
 <br>
 </p>
+
 
 
 ## 🔨 Environment Setup 
