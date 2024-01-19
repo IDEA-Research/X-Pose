@@ -353,7 +353,7 @@ checkpoint_path = "./unipose_swint.pth"  # change the path of the model
 model = load_model(config_file, checkpoint_path, cpu_only=False)
 
 if __name__ == "__main__":
-MARKDOWN = \
+    MARKDOWN = \
 """
 ## UniPose: Detecting Any Keypoints
 
