@@ -244,8 +244,8 @@ def get_unipose_output(model, image, instance_text_prompt,keypoint_text_prompt, 
 
     device = "cuda" if not cpu_only else "cpu"
 
-    clip_model, _ = clip.load("ViT-B/32", device=device)
-    ins_text_embeddings, kpt_text_embeddings = text_encoding(instance_list, keypoint_text_prompt, clip_model, device)
+    # clip_model, _ = clip.load("ViT-B/32", device=device)
+    ins_text_embeddings, kpt_text_embeddings = text_encoding(instance_list, keypoint_text_prompt, model.clip_model, device)
     target={}
     target["instance_text_prompt"] = instance_list
     target["keypoint_text_prompt"] = keypoint_text_prompt
