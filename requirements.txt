@@ -1,5 +1,5 @@
 addict==2.4.0
-gradio==4.0.2
+gradio==3.41.2
 ipdb==0.13.4
 matplotlib==3.5.3
 numpy==1.21.5
