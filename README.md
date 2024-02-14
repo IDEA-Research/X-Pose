@@ -22,6 +22,7 @@
 </div>
 
 ## 🤩 News
+- **2024.02.14:** We update a [file](https://github.com/IDEA-Research/UniPose/blob/master/util/instance.txt) to highlight all classes (1237 classes) in the UNIKPT dataset.
 - **2023.11.28:** We are excited to highlight the 68 face keypoints detection ability of UniPose across any categories in this [figure](https://github.com/IDEA-Research/UniPose/blob/master/asset/anyface.png). The definition of face keypoints follows this [dataset](https://github.com/jin-s13/COCO-WholeBody/blob/master/imgs/Fig2_anno.png).
 - **2023.11.9:** Thanks to [OpenXLab](https://openxlab.org.cn/models/detail/IDEA-Research/UniPose), you can try a quick [online demo](https://openxlab.org.cn/apps/detail/IDEA-Research/IDEA). Looking forward to the feedback!
 - **2023.11.1:** We release the inference code, demo, checkpoints, and the annotation of the UniKPT dataset.
