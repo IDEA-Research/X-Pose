@@ -191,7 +191,7 @@ def plot_on_image(image_pil, tgt, keypoint_skeleton,keypoint_text_prompt):
 
         sks = np.array(keypoint_skeleton)
         # import pdb;pdb.set_trace()
-        if sks !=[]:
+        if sks.shape[0] != 0:
             if sks.min()==1:
                 sks = sks - 1
 
@@ -338,7 +338,10 @@ def run_unipose(input_image, instance_text_prompt, keypoint_text_example,box_thr
     # import ipdb; ipdb.set_trace()
     image_with_predict = plot_on_image(image_pil, pred_dict,keypoint_skeleton,keypoint_text_prompt)
     if instance_text_prompt in ['person', 'face']:
-        image_openpose = draw_openpose(keypoints_filt, instance_text_prompt, image)
+        try:
+            image_openpose = draw_openpose(keypoints_filt, instance_text_prompt, image)
+        except ValueError as e:
+            print("A exception occurred: ", e)
     else:
         image_openpose = None
     return image_with_predict, image_openpose
