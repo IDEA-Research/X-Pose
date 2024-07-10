@@ -1,6 +1,6 @@
 <div align="center">
 <p align="center"> <img src="asset/unipose_logo.png" width="250px"> </p>
-<h2> UniPose: Detecting Any Keypoints  </h2> 
+<h2> X-Pose: Detecting Any Keypoints  </h2> 
 
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unipose-detecting-any-keypoints/2d-human-pose-estimation-on-human-art)](https://paperswithcode.com/sota/2d-human-pose-estimation-on-human-art?p=unipose-detecting-any-keypoints)
@@ -22,15 +22,15 @@
 </div>
 
 ## 🤩 News
-- **2024.07.02:** UniPose is accepted to ECCV24.
+- **2024.07.02:** X-Pose is accepted to ECCV24 (We changed the model name from UniPose to X-Pose to avoid confusion with similarly named previous works).
 - **2024.02.14:** We update a [file](https://github.com/IDEA-Research/UniPose/blob/master/util/instance.txt) to highlight all classes (1237 classes) in the UNIKPT dataset.
-- **2023.11.28:** We are excited to highlight the 68 face keypoints detection ability of UniPose across any categories in this [figure](https://github.com/IDEA-Research/UniPose/blob/master/asset/anyface.png). The definition of face keypoints follows this [dataset](https://github.com/jin-s13/COCO-WholeBody/blob/master/imgs/Fig2_anno.png).
+- **2023.11.28:** We are excited to highlight the 68 face keypoints detection ability of X-Pose across any categories in this [figure](https://github.com/IDEA-Research/UniPose/blob/master/asset/anyface.png). The definition of face keypoints follows this [dataset](https://github.com/jin-s13/COCO-WholeBody/blob/master/imgs/Fig2_anno.png).
 - **2023.11.9:** Thanks to [OpenXLab](https://openxlab.org.cn/models/detail/IDEA-Research/UniPose), you can try a quick [online demo](https://openxlab.org.cn/apps/detail/IDEA-Research/IDEA). Looking forward to the feedback!
 - **2023.11.1:** We release the inference code, demo, checkpoints, and the annotation of the UniKPT dataset.
 - **2023.10.13:** We release the [arxiv](http://arxiv.org/abs/2310.08530) version.
   
-### In-the-wild Test via UniPose
-UniPose has strong fine-grained localization and generalization abilities across image styles, categories, and poses.
+### In-the-wild Test via X-Pose
+X-Pose has strong fine-grained localization and generalization abilities across image styles, categories, and poses.
 <p align="middle">
 <img src="asset/in-the-wild.jpg" width="2000">
 <br>
@@ -51,7 +51,7 @@ UniPose has strong fine-grained localization and generalization abilities across
 
 ## 💡 Overview
 
- • UniPose is the first end-to-end prompt-based keypoint detection framework.
+ • X-Pose is the first end-to-end prompt-based keypoint detection framework.
  
 
 <p align="middle">
@@ -82,8 +82,8 @@ UniPose has strong fine-grained localization and generalization abilities across
 ## 🔨 Environment Setup 
    1. Clone this repo
    ```sh
-   git clone https://github.com/IDEA-Rensearch/UniPose.git
-   cd UniPose
+   git clone https://github.com/IDEA-Rensearch/X-Pose.git
+   cd X-Pose
    ```
 
    2. Install the needed packages
@@ -107,7 +107,7 @@ UniPose has strong fine-grained localization and generalization abilities across
 ### 1. Guidelines
  • We have released the textual prompt-based branch for inference. As the visual prompt involves a substantial amount of user input, we are currently exploring more user-friendly platforms to support this functionality.
 
- • Since UniPose has learned strong structural prior, it's best to use the predefined skeleton as the keypoint textual prompts, which are shown in [predefined_keypoints.py](https://github.com/IDEA-Research/UniPose/blob/master/predefined_keypoints.py).
+ • Since X-Pose has learned strong structural prior, it's best to use the predefined skeleton as the keypoint textual prompts, which are shown in [predefined_keypoints.py](https://github.com/IDEA-Research/UniPose/blob/master/predefined_keypoints.py).
 
  • If users don't provide a keypoint prompt, we'll try to match the appropriate skeleton based on the user's instance category. If unsuccessful, we'll default to using the animal's skeleton, which covers a wider range of categories and testing requirements.
 
@@ -145,7 +145,7 @@ python app.py
   <tbody>
     <tr style="text-align: center;">
       <th>1</th>
-      <td>UniPose</td>
+      <td>X-Pose</td>
       <td>Swin-T</td>
       <td>74.4</td>
       <td><a href="https://drive.google.com/file/d/13gANvGWyWApMFTAtC3ntrMgx0fOocjIa/view"> Google Drive</a> /<a href="https://openxlab.org.cn/models/detail/IDEA-Research/UniPose"> OpenXLab</a>
@@ -155,7 +155,7 @@ python app.py
   <tbody>
     <tr style="text-align: center;">
       <th>2</th>
-      <td>UniPose</td>
+      <td>X-Pose</td>
       <td>Swin-L</td>
       <td>76.8</td>
       <td> Coming Soon</td>
@@ -197,15 +197,15 @@ python app.py
 • We provide the [annotations](https://drive.google.com/file/d/1ukLPbTpTfrCQvRY2jY52CgRi-xqvyIsP/view) with precise keypoints' textual descriptions for effective training. More conveniently, you can find the text annotations in the [link](https://github.com/IDEA-Research/UniPose/blob/master/predefined_keypoints.py).
 
 
-### Citing UniPose
+### Citing X-Pose
 If you find this repository useful for your work, please consider citing it as follows:
 
 ```
-@article{yang2023unipose,
-  title={UniPose: Detection Any Keypoints},
+@article{xpose,
+  title={X-Pose: Detection Any Keypoints},
   author={Yang, Jie and Zeng, Ailing and Zhang, Ruimao and Zhang, Lei},
-  journal={arXiv preprint arXiv:2310.08530},
-  year={2023}
+  journal={ECCV},
+  year={2024}
 }
 ```
 ```
