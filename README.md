@@ -14,7 +14,7 @@
 
 ***Online demo***:[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/IDEA-Research/IDEA)
 ***Quick Checkpoint download***:[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/header/openxlab_models.svg)](https://openxlab.org.cn/models/detail/IDEA-Research/UniPose)
-#### [<code>Project Page</code>](https://yangjie-cv.github.io/X-Pose/) | [<code>arXiv</code>](https://arxiv.org/abs/2310.08530) | [<code>Paper</code>](http://arxiv.org/abs/2310.08530)  | [<code>UniKPT Dataset</code>](https://drive.google.com/file/d/1ukLPbTpTfrCQvRY2jY52CgRi-xqvyIsP/view)  |[<code>Video</code>](https://github.com/IDEA-Research/UniPose)
+#### [<code>Project Page</code>](https://yangjie-cv.github.io/X-Pose/) | [<code>Paper</code>](http://arxiv.org/abs/2310.08530)  | [<code>UniKPT Dataset</code>](https://drive.google.com/file/d/1ukLPbTpTfrCQvRY2jY52CgRi-xqvyIsP/view)  |[<code>Video</code>](https://github.com/IDEA-Research/UniPose)
 
 [Jie Yang<sup>1,2</sup>](https://yangjie-cv.github.io/), [Ailing Zeng<sup>1</sup>](https://ailingzeng.site/), [Ruimao Zhang<sup>2</sup>](http://www.zhangruimao.site/), [Lei Zhang<sup>1</sup>](https://www.leizhang.org/)
 
