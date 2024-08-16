@@ -22,7 +22,7 @@
 </div>
 
 ## 🤩 News
-- **2024.07.12:** X-Pose supports controllable animal face animation. See details [here](https://github.com/ShiJiaying/LivePortrait).
+- **2024.07.12:** X-Pose supports controllable animal face animation. See details [here]([https://github.com/ShiJiaying/LivePortrait](https://github.com/KwaiVGI/LivePortrait/blob/main/assets/docs/changelog/2024-08-02.md)).
                <img src="asset/xpose-liveportrait.gif" style="height:150px" />
 
 - **2024.07.02:** X-Pose is accepted to ECCV24 (We changed the model name from UniPose to X-Pose to avoid confusion with similarly named previous works).
