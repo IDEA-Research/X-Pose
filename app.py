@@ -1,7 +1,5 @@
 import argparse
 import os
-os.system("pip install ftfy regex tqdm")
-os.system("pip install git+https://github.com/openai/CLIP.git")
 import sys
 import io
 import gradio as gr
@@ -15,6 +13,7 @@ from predefined_keypoints import *
 from util import box_ops
 from util.config import Config
 from util.utils import clean_state_dict
+from util.draw_openpose import draw_openpose
 
 import matplotlib.pyplot as plt
 from matplotlib.collections import PatchCollection
@@ -192,7 +191,7 @@ def plot_on_image(image_pil, tgt, keypoint_skeleton,keypoint_text_prompt):
 
         sks = np.array(keypoint_skeleton)
         # import pdb;pdb.set_trace()
-        if sks !=[]:
+        if sks.shape[0] != 0:
             if sks.min()==1:
                 sks = sks - 1
 
@@ -338,7 +337,14 @@ def run_unipose(input_image, instance_text_prompt, keypoint_text_example,box_thr
     }
     # import ipdb; ipdb.set_trace()
     image_with_predict = plot_on_image(image_pil, pred_dict,keypoint_skeleton,keypoint_text_prompt)
-    return image_with_predict
+    if instance_text_prompt in ['person', 'face']:
+        try:
+            image_openpose = draw_openpose(keypoints_filt, instance_text_prompt, image)
+        except ValueError as e:
+            print("A exception occurred: ", e)
+    else:
+        image_openpose = None
+    return image_with_predict, image_openpose
 
 
 
@@ -354,7 +360,7 @@ checkpoint_path = "./unipose_swint.pth"  # change the path of the model
 model = load_model(config_file, checkpoint_path, cpu_only=False)
 
 if __name__ == "__main__":
-MARKDOWN = \
+    MARKDOWN = \
 """
 ## UniPose: Detecting Any Keypoints
 
@@ -383,10 +389,14 @@ If UniPose is helpful for you, please help star the GitHub Repo. Thanks!
                     type="pil",
 
                 ).style(full_width=True, full_height=True)
+            with gr.Column():
+                gallery_openpose = gr.outputs.Image(
+                    type="pil",
+                ).style(full_width=True, full_height=True)
 
         run_button.click(fn=run_unipose, inputs=[
-                        input_image, instance_prompt, keypoint_example,box_threshold,IoU_threshold], outputs=[gallery])
+                        input_image, instance_prompt, keypoint_example,box_threshold,IoU_threshold], outputs=[gallery, gallery_openpose])
 
 
-    block.launch(share=True)
+    block.launch(share=True, server_name="0.0.0.0")
 
