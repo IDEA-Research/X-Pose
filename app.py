@@ -366,7 +366,7 @@ If UniPose is helpful for you, please help star the GitHub Repo. Thanks!
     with block:
         with gr.Row():
             with gr.Column():
-                input_image = gr.Image(source='upload', type="pil")
+                input_image = gr.Image(sources=['upload'], type="pil")
                 instance_prompt = gr.Textbox(label="Instance Prompt")
                 keypoint_example = gr.Textbox(label="Keypoint Example",info="Support predefined keypoints: 1) Articulated Objects: person, face, hand, animal_in_AnimalKindom, animal_in_AP10K, animal_face, fly, locust; 2) Rigid Objects: car, table, chair, bed, sofa, swivelchair; 3) Soft Objects: short_sleeved_shirt, long_sleeved_outwear, short_sleeved_outwear, sling, vest, long_sleeved_dress, long_sleeved_shirt, trousers, sling_dress, vest_dress, skirt, short_sleeved_dress, shorts")
                 run_button = gr.Button(label="Run")
